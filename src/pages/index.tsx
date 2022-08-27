@@ -11,6 +11,16 @@ const Home: NextPage = () => {
       </Head>
       <main>
 
+ <div className="topnav">
+  <a className="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#players">players</a>
+  <a href="#Tickets">Tickets</a>
+  <a href="#Shop">Shop</a>
+  <a href="#Contact">Contact</a>
+  <a href="#About">About</a>
+</div>
+
       </main>
     </div>
   )
